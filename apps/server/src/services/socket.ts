@@ -8,4 +8,10 @@ class SocketService {
         console.log("Socket Server Initialised");
         this._io = new Server();
     }
+
+    get io() {
+        return this._io;
+    }
 }
+
+export default SocketService;
