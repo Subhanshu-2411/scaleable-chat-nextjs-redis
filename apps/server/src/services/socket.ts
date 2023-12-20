@@ -13,5 +13,4 @@ class SocketService {
         return this._io;
     }
 }
-
 export default SocketService;
