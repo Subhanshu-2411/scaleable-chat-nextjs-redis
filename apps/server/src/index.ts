@@ -14,6 +14,8 @@ async function init() {
             `HTTP Server Started at ${PORT}`
         )
     );
+
+    socketService.initListeners();
 }
 
 init();
